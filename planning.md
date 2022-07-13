@@ -20,7 +20,9 @@ Estos 5 cursos de la Universidad de Michigan introducirán a los miembros del cl
 
 ### Introducción a la Ciencia de Datos en Python
 
-En este curso se introducirá al alumno a los básicos de la programación en Python. Enfocándose en lambdas, lectura y manipulación de archivos csv, y la librería `numpy`. Este curso también introducirá técnicas de manipulación y limpieza de datos a través de la librería `pandas`
+En este curso se introducirá al alumno a los básicos de la programación en Python. Enfocándose en lambdas, lectura y manipulación de archivos csv, y la librería `numpy`. Este curso también introducirá técnicas de manipulación y limpieza de datos a través de la librería `pandas`, utilizando las estructuras de datos `Series` y `DataFrame`. Se estudiará también como usar los métodos `groupby`, `merge`, y `pivot tables`.
+
+Al final de este curso el alumno podrá tomar datos en forma tabular, manipularlos, limpiarlos y realizar análisis estadísticos de inferencia básicos.
 
 ### Visualización y Representación de Datos
 
