@@ -34,6 +34,23 @@ En este curso se introducirá al alumno a los básicos de la programación en Py
 
 ## Álgebra Lineal
 
+- Espacios vectoriales
+- Sub-espacios
+- Base, conjunto generador, espacio generado
+- Independencia lineal
+- Independencia geométrica
+- Rango
+- Ortogonalidad
+- Kernel
+- Mapeos lineales
+- Introducción al cálculo tensorial
+
+Literatura recomendada:
+
+- Linear Algebra and Its Applications, Gilbert Strang.
+- Linear Algebra and Optimization for Machine Learning, Charu C. Aggarwal
+- Mathematics for Machine Learning, Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong
+
 ## Probabilidad y Estadística
 
 ## Referencias
