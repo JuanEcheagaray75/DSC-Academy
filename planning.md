@@ -26,6 +26,8 @@ Al final de este curso el alumno podrá tomar datos en forma tabular, manipularl
 
 ### Visualización y Representación de Datos
 
+En este curso se introducirá al alumno a las técnicas básicas de visualización de la información haciendo uso primordialmente de la librería `matplotlib`. El curso comenzará enseñando al alumno la diferencia entre una buena y una mala visualización, así como la interpretación visual de algunos estadísticos. Después se comenzará a practicar el uso de `matplotlib` sembrando una costumbre de seguir buenas prácticas de programación para la creación de visualizaciones, aunado a esto, el alumno explorará nuevas técnicas de visualización al implementar una desde 0. Finalmente el alumno se dará a la tarea de plantearse una pregunta de investigación que deberá poder responder mediante el uso de una visualización.
+
 ### Machine Learning Aplicado
 
 ### Minería de Texto Aplicada
