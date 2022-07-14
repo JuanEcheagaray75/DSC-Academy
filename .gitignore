@@ -1,6 +1,9 @@
 # Bash scripts
 *.sh
 
+# Folders
+/drafts
+
 # Latex
 *.aux
 *.glo
