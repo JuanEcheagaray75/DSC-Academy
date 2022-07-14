@@ -1,18 +1,18 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
-\usepackage[spanish]{babel}
+\usepackage[spanish, es-tabla]{babel}
 \usepackage{amsthm}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{graphicx}
 \usepackage{wrapfig}
-\usepackage[letterpaper, margin=1.5in]{geometry}
+\usepackage[letterpaper, top=0.78in, bottom=0.78in, left=0.98in, right=0.98in]{geometry}
 \usepackage[hidelinks]{hyperref}
 \decimalpoint
 
-\title{Planeación}
+\title{Planeación 2022-2023}
 \author{Juan Pablo Echeagaray González}
-\date{1 de julio del 2022}
+\date{\today}
 
 \begin{document}
     \begin{titlepage}
@@ -24,21 +24,102 @@
 
     \section{Ciencia de Datos Aplicada en Python}
 
+        Estos 5 cursos de la Universidad de Michigan introducirán a los miembros del club a la Ciencia de Datos a través del lenguaje de programación Python. Estos cursos basados en competencias se diseñaron para aquellas personas con nociones básicas de Python, que quieran aplicar técnicas estadísticas, de machine learning, visualización de datos, procesamiento de texto y análisis de redes sociales a través de librerías como \texttt{pandas}, \texttt{matplotlib}, \texttt{scikit-learn}, \texttt{nltk} y \texttt{networkx} \cite{applied-ds}.
+
         \subsection{Introducción a la Ciencia de Datos en Python}
+
+            En este curso se introducirá al alumno a los básicos de la programación en Python. Enfocándose en lambdas, lectura y manipulación de archivos csv, y la librería \texttt{numpy}. Este curso también introducirá técnicas de manipulación y limpieza de datos a través de la librería \texttt{pandas}, utilizando las estructuras de datos \texttt{Series} y \texttt{DataFrame}. Se estudiará también como usar los métodos \texttt{groupby}, \texttt{merge}, y \texttt{pivot tables}.
+
+            Al final de este curso el alumno podrá tomar datos en forma tabular, manipularlos, limpiarlos y realizar análisis estadísticos de inferencia básicos \cite{intro-ds}.
+
+            \subsubsection{Actividades}
 
         \subsection{Visualización y Representación de Datos}
 
+            Se introducirá al alumno a las técnicas básicas de visualización de la información haciendo uso primordialmente de la librería \texttt{matplotlib}. El curso comenzará enseñando al alumno la diferencia entre una buena y una mala visualización, así como la interpretación visual de algunos estadísticos. Después se comenzará a practicar el uso de \texttt{matplotlib} sembrando una costumbre de seguir buenas prácticas de programación para la creación de visualizaciones, aunado a esto, el alumno explorará nuevas técnicas de visualización al implementar una desde 0. 
+            
+            Finalmente el alumno se dará a la tarea de plantearse una pregunta de investigación que deberá poder responder mediante el uso de una visualización \cite{plotting}.
+
+            \subsubsection{Actividades}
+
         \subsection{Machine Learning Aplicado}
+
+            Este curso introducirá al alumno a técnicas de aprendizaje máquina aplicadas, tomando un enfoque mayor en las técnicas y métodos en vez de los conceptos estadísticos detrás de ellos. El curso comenzará con una discusión de las diferencias entre el aprendizaje máquina y la estadística descriptiva, se introducirá también la librería \texttt{scikit-learn}. Se abordará el problema de la dimensionalidad así como el del agrupamiento de datos.
+
+            Se presentarán también diversos métodos de aprendizaje supervisado con el fin de que el estudiante pueda aplicarlos haciendo uso de la librería \texttt{scikit-learn}, aprenderá a la par como evaluar los modelos que implemente. El curso concluirá con modelos más avanzados, como redes neuronales así como sus limitaciones.
+
+            Al final de este curso el alumno comprenderá las diferencias entre aprendizajes supervisados y no supervisados, identificar la técnica apropiada dado el conjunto de datos, crear una característica que necesiten, y escribir el código de Python necesario para llevar a cabo su análisis \cite{applied-ml}.
+
+            \subsubsection{Actividades}
 
         \subsection{Minería de Texto Aplicada}
 
+            Este curso introducirá al alumno a técnicas básicas de minería y manipulación de texto. Comienza con el entendimiento de como Python maneja texto, la estructura del mismo desde la perspectiva humana y de una máquina, se brindará también una descripción general de la librería \texttt{nltk}. Después se diversificará el enfoque hacia el uso de \texttt{regex}, limpieza de texto y preparación del mismo para su uso en modelos de machine learning.
+
+            Al finalizar el curso se aplicarán algunas técnicas de procesamiento de lenguaje natural para demostrar como es que se logra la clasificación de texto, también se demostrará como se detectan los temas de los textos para después ser agrupados \cite{text-mining}.
+
+            \subsubsection{Actividades}
+
         \subsection{Análisis de Redes Sociales Aplicado}
+
+            Se introducirá al alumno al análisis de redes haciendo uso de la librería \texttt{NetworkX}. El curso comienza con una descripción de lo que es el análisis de redes, así como una motivación de por qué esta modelación podría ser óptima para algunos problemas. Después se explicarán los conceptos de conectividad y robustez. Se explorarán diferentes técnicas para medir la importancia de un nodo en la red. Se finalizará el curso con la presentación de técnicas de análisis de evolución de redes a través del tiempo, así como métodos para creación de las mismas, se abordará también el problema de la predicción de enlaces \cite{network-analysis}.
+
+            \subsubsection{Actividades}
+        
+        \subsection{Literatura recomendada}
+
+            \begin{itemize}
+                \item Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow: Concepts, tools, and techniques to build intelligent systems, Géron \cite{geron2019hands}
+            \end{itemize}
 
     \section{Introducción a Bases de Datos}
 
     \section{Álgebra Lineal}
 
+        \begin{itemize}
+            \item Espacios vectoriales
+            \item Sub-espacios
+            \item Base, conjunto generador, espacio generado
+            \item Independencia lineal
+            \item Independencia geométrica
+            \item Rango
+            \item Ortogonalidad
+            \item Kernel
+            \item Mapeos lineales
+            \item Introducción al cálculo tensorial
+        \end{itemize}
+
+        \subsection{Literatura recomendada}
+
+            \begin{itemize}
+                \item Linear Algebra and Its Applications, Gilbert Strang \cite{strang2006linear}
+                \item Linear Algebra and Optimization for Machine Learning, Charu C. Aggarwal \cite{aggarwal2020linear}
+                \item Mathematics for Machine Learning, Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong \cite{deisenroth2020mathematics}
+            \end{itemize}
+
     \section{Probabilidad y Estadística}
 
+        \begin{itemize}
+            \item Concepto de probabilidad
+            \item Probabilidad condicional
+            \item Teorema de Bayes
+            \item Distribuciones de probabilidad
+            \item Teorema del límite central
+            \item Estadística descriptiva
+            \item Estadística multi-variada
+            \item Medidas de tendencia central
+            \item Medidas de dispersión
+        \end{itemize}
+
+        \subsection{Literatura recomendada}
+
+            \begin{itemize}
+                \item Probability and Statistics for Engineers and Scientists, Ronald E. Walpole \cite{walpole1993probability}
+                \item Probability and Statistics for Engineering and the Sciences, Jay L. Devore \cite{devore2011probability}
+                \item Applied Multivariate Statistical Analysis, Richard Johnson \cite{johnson2014applied}
+            \end{itemize}
+
+    \bibliographystyle{IEEEtran}
+    \bibliography{references.bib}
 
 \end{document}
