@@ -1,3 +1,6 @@
+# IDE
+.vscode
+
 # Bash scripts
 *.sh
 
