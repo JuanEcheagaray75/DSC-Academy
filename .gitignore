@@ -1,6 +1,9 @@
 # IDE
 .vscode
 
+# Virtual environment
+/.venv
+
 # Bash scripts
 *.sh
 
