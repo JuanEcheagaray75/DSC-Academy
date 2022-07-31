@@ -2,7 +2,8 @@
 
 ## DSC-Academy
 
-- [ ] Crear una entrevista para conseguir coordinadores
+- [x] Crear una entrevista para conseguir coordinadores
+- [x] Enviar cartas de aceptación
 - [ ] Definir la duración de las sesiones
   - Se dispondrán de 17 semanas una vez comenzando el semestre
 - [ ] Definir logística de las sesiones de estudio
